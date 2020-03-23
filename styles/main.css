@@ -1,0 +1,62 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: left;
+    padding: 100px;
+}
+
+
+.gridSquare:hover {
+    background-color: rgb(182, 180, 180);
+}
+
+#square--7 {
+    border-bottom: none;
+    border-left: none;
+}
+#square--8 {
+    border-bottom: none;
+}
+#square--9 {
+    border-bottom: none;
+    border-right: none;
+}
+#square--1 {
+    border-top: none;
+    border-left: none;
+}
+#square--2 {
+    border-top: none;
+}
+#square--3 {
+    border-top: none;
+    border-right: none;
+}
+#square--4 {
+    
+    border-left: none;
+}
+
+#square--6 {
+    
+    border-right: none;
+}
+
+
+.gridSquare {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 8em;
+}
+
+.player1{
+    color: red;
+}
+
+.player2{
+    color: blue;
+}
